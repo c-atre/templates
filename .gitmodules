@@ -1,0 +1,8 @@
+[submodule "fonts/arvo"]
+	path = fonts/arvo
+	url = https://github.com/antonxheight/Arvo.git
+	shallow = true
+[submodule "fonts/montserrat"]
+	path = fonts/montserrat
+	url = https://github.com/JulietaUla/Montserrat.git
+	shallow = true

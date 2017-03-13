@@ -1,0 +1,11 @@
+/* This defines styles and classes used in the book */
+body { margin: 5%; text-align: justify; font-family: "Arvo","Times New Roman",serif; font-size: 12pt; }
+code { font-family: monospace; }
+h1 { page-break-before: always; }
+h1,h2 { text-align: left; font-family: Montserrat,Arial,sans-serif; }
+.title { text-align: center; font-size: 40pt; }
+.author { margin-top: 3cm; text-align: center; }
+.date { margin-top: 3cm; text-align: center; }
+.rights { margin-top: 3.5em; text-align: center; }
+#TOC ul { padding: 0; margin-left: 0em; }
+#TOC ul li { list-style-type: none; margin: 0; padding: 0; }

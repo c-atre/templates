@@ -1,0 +1,58 @@
+/* This defines styles and classes used in the book */
+@font-face {
+font-family: Arvo;
+font-style: normal;
+font-weight: normal;
+src:url("Arvo-Regular_201.ttf");
+}
+@font-face {
+font-family: Arvo;
+font-style: normal;
+font-weight: bold;
+src:url("Arvo-Bold_201.ttf");
+}
+@font-face {
+font-family: Arvo;
+font-style: italic;
+font-weight: normal;
+src:url("Arvo-Italic_201.ttf");
+}
+@font-face {
+font-family: Arvo;
+font-style: italic;
+font-weight: bold;
+src:url("Arvo-BoldItalic_201.ttf");
+}
+@font-face {
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+src:url("Montserrat-Regular.otf");
+}
+@font-face {
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+src:url("Montserrat-Bold.otf");
+}
+@font-face {
+font-family: Montserrat;
+font-style: italic;
+font-weight: normal;
+src:url("Montserrat-Italic.otf");
+}
+@font-face {
+font-family: Montserrat;
+font-style: italic;
+font-weight: bold;
+src:url("Montserrat-BoldItalic.otf");
+}
+body { margin: 5%; text-align: justify; font-family: "Arvo","Times New Roman",serif; font-size: 12pt; }
+code { font-family: monospace; }
+h1,h2 { text-align: left; font-family: Montserrat,Arial,sans-serif; }
+.title { margin-top: 4cm; text-align: center; font-size: 40pt; }
+.author { margin-top: 2cm; text-align: center; }
+.date { margin-top: 2cm; text-align: center; }
+.rights { margin-top: 2.2em; text-align: center; }
+ol.toc { padding: 0; margin-left: 1em; }
+ol.toc li { list-style-type: none; margin: 0; padding: 0; }

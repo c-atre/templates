@@ -193,7 +193,11 @@ $endif$
 \begin{document}
 \begin{titlepage}
     \centering
+    $if(title-image)$
+    \includegraphics[height=6cm]{$title-image$}\par
+    $else$
     \vspace*{6cm}
+    $endif$
     {\titlefont $title$}\par
     \vspace{3cm}
     {$author$}\par

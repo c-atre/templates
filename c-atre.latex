@@ -214,6 +214,9 @@ $endif$
     \href{$rights.license.link$}{$rights.license.long$}\\
     (\url{$rights.license.link$})}\par
     $endif$
+    $if(version)$
+    $version$\par
+    $endif$
 \end{titlepage}
 
 $if(toc)$

@@ -23,7 +23,7 @@
     ItalicFont=*-Italic,%
     BoldItalicFont=*-BoldItalic,%
     ]{Montserrat}
-\newfontfamily\titlefont[SizeFeatures={Size=40},
+\renewfontfamily\titlefont[SizeFeatures={Size=40},
     Path=$template-path$/fonts/montserrat/fonts/otf/]{Montserrat-ExtraBold.otf}
 $if(monofont)$
     \setmonofont[Mapping=tex-ansi$if(monofontoptions)$,$for(monofontoptions)$$monofontoptions$$sep$,$endfor$$endif$]{$monofont$}

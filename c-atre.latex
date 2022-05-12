@@ -74,11 +74,13 @@ $if(babel-newcommands)$
   $babel-newcommands$
 $endif$
 \else
+$if(polyglossia-lang.options)$
   \usepackage{polyglossia}
   \setmainlanguage[$polyglossia-lang.options$]{$polyglossia-lang.name$}
 $for(polyglossia-otherlangs)$
   \setotherlanguage[$polyglossia-otherlangs.options$]{$polyglossia-otherlangs.name$}
 $endfor$
+$endif$
 \fi
 $endif$
 $if(natbib)$
